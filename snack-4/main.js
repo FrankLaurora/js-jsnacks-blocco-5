@@ -7,6 +7,7 @@ var mergedArr = [];
 function arrayMerger(lettere, numeri) {
     if(lettere.length != numeri.length) {
         alert("Questa funzione accetta solo array con la stessa lunghezza");
+        return;
     } else {
         for(let i = 0; i < lettere.length; i++) {
             mergedArr.push(lettere[i]);
