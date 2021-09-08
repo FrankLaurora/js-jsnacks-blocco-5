@@ -87,4 +87,4 @@ for(let i = 0; i < zucchineLunghe.length; i++) {
     pesolunghe += zucchineLunghe[i].peso;
 }
 
-console.log(`Il peso totale dell zucchine corte è ${pesolunghe} grammi.`);
+console.log(`Il peso totale dell zucchine lunghe è ${pesolunghe} grammi.`);
