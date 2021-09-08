@@ -75,5 +75,16 @@ for(let i = 0; i < zucchine.length; i++) {
     }
 }
 
-console.log(zucchineCorte);
-console.log(zucchineLunghe);
+var pesoCorte = 0;
+for(let i = 0; i < zucchineCorte.length; i++) {
+    pesoCorte += zucchineCorte[i].peso;
+}
+
+console.log(`Il peso totale dell zucchine corte è ${pesoCorte} grammi.`);
+
+var pesolunghe = 0;
+for(let i = 0; i < zucchineLunghe.length; i++) {
+    pesolunghe += zucchineLunghe[i].peso;
+}
+
+console.log(`Il peso totale dell zucchine corte è ${pesolunghe} grammi.`);
