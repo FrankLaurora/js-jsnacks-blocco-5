@@ -4,14 +4,14 @@
 
 var mergedArr = [];
 
-function arrayMerger(lettere, numeri) {
-    if(lettere.length != numeri.length) {
-        alert("Questa funzione accetta solo array con la stessa lunghezza");
-        return;
+function arrayMerger(arr1, arr2) {
+    if(arr1.length != arr2.length) {
+        return alert("Questa funzione accetta solo array con la stessa lunghezza");
+        
     } else {
-        for(let i = 0; i < lettere.length; i++) {
-            mergedArr.push(lettere[i]);
-            mergedArr.push(numeri[i]);
+        for(let i = 0; i < arr1.length; i++) {
+            mergedArr.push(arr1[i]);
+            mergedArr.push(arr2[i]);
         }
 
         return mergedArr;
